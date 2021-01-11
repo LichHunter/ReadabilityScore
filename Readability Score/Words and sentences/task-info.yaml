@@ -1,17 +1,6 @@
 type: edu
 custom_name: stage2
 files:
-  - name: src/readability/Main.java
-    visible: true
-    text: |
-      package readability;
-
-      public class Main {
-          public static void main(String[] args) {
-              System.out.print("Hello world!");
-          }
-      }
-    learner_created: false
   - name: test/ReadabilityTest.java
     visible: false
     text: |
@@ -61,6 +50,20 @@ files:
           }
       }
     learner_created: false
+  - name: src/readability/Main.java
+    visible: true
+    text: |
+      package readability;
+
+      public class Main {
+          public static void main(String[] args) {
+              System.out.print("Hello world!");
+          }
+      }
+    learner_created: false
 feedback_link: https://hyperskill.org/projects/39/stages/206/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 11 Jan 2021 09:57:48 UTC
+record: 2
